@@ -2,7 +2,10 @@
 Welcome to the Adaptyv Bio project at the Lemanic Life Sciences Hackathon 2024! Here you will find all the information you need to get started with our project.
 
 ## Introduction
-Your goal in this project is to train classifiers that can predict protein-protein interactions for proteins binding to specific targets. We provide you with two datasets that we sourced from [CoV-AbDab](https://opig.stats.ox.ac.uk/webapps/covabdab/), a database of antibodies and nanobodies binding to different coronaviruses. We split these datasets to simulate two typical real-world scenarios. One is learning from literature, where typically there are many positive examples and few negative. The other is learning from experimental data, where there are few positive examples and many negative. The test subsets for both scenarios have several times more negative samples than positive. The antigens are SARS-CoV1 and HCoV-HKU1, respectively.
+Your goal in this project is to train classifiers that can predict protein-protein interactions for proteins binding to specific targets. We provide you with two datasets that we sourced from [CoV-AbDab](https://opig.stats.ox.ac.uk/webapps/covabdab/), a database of antibodies and nanobodies binding to different coronaviruses. 
+
+We split these datasets to simulate two typical real-world scenarios. One is learning from literature, where typically there are many positive examples and few negative. The other is learning from experimental data, where there are few positive examples and many negative. The test subsets for both scenarios have several times more negative samples than positive. The antigens are SARS-CoV1 and HCoV-HKU1, respectively.
+
 Since the source data is publicly available, we provide you with the test labels. However, you should not use these labels to train your models or tune hyperparameters. Only reserve them for the final evaluation.
 
 ## Data
