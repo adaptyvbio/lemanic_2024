@@ -16,9 +16,10 @@ The data is provided in the `data` directory. The `experiment_train.csv` and `ex
 
 The heavy chain is present for all the proteins, while the other information may be missing.
 
-You might want to use additional data to improve your models. For that, we provide a table of protein-protein interactions with other coronaviruses that do not concern the target proteins in either of the datasets. This data is in the `interactions.csv` file. It has two additional columns:
-- `Antigen`: the antigen the protein binds to,
-- `Name`: the protein that binds to the antigen. 
+You might want to use additional data to improve your models. For that, we provide a table of protein-protein interactions with other coronaviruses that do not concern the target proteins in either of the datasets. This data is in the `interactions.csv` file. It has one additional column:
+- `Antigen`: the antigen the protein binds to.
+
+In this table most antibodies and nanobodies are repeated multiple times, as they bind or do not bind to multiple antigens.
 
 ## Evaluation
 Since the datasets are imbalanced, the evaluation metric for this task is F1 score.
