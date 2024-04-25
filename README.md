@@ -33,3 +33,6 @@ conda create --name lemanic_adaptyv python=3.9
 conda activate lemanic_adaptyv
 python -m pip install -r requirements.txt
 ```
+
+## Directions
+See the [intro presentation](intro.pdf) for some initial directions and references (on the last slide). Feel free to reach out to us if you have any questions or need help with the data. Good luck!
