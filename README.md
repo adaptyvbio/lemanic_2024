@@ -22,7 +22,7 @@ You might want to use additional data to improve your models. For that, we provi
 In this table most antibodies and nanobodies are repeated multiple times, as they bind or do not bind to multiple antigens.
 
 ## Evaluation
-Since the datasets are imbalanced, the evaluation metric for this task is F1 score.
+Since the datasets are imbalanced, the evaluation metric for this task is F1 score. Please provide an average of five random seeds in your final solution.
 
 ## Baseline
 In order to provide you with a baseline, we trained a simple random forest model with SMOTE resampling on ESM-2 embeddings of the heavy chain data. You can find the code in the [baseline notebook](baseline.ipynb).
